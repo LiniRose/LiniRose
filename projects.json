@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Form Validation",
+        "description": "A web form for creating a user account, built with HTML, CSS, and JavaScript.",
+        "software": ["HTML", "CSS", "JavaScript"],
+        "image": "images/form.png",
+        "link": "https://github.com/LiniRose/dndcharacter"
+    },
+    {
+        "name": "JS Game",
+        "description": "A browser-based game, created using JavaScript.",
+        "software": ["HTML", "CSS", "JavaScript"],
+        "image": "images/game.png",
+        "link": "https://github.com/LiniRose/Kitty-Crunch"
+    },
+    {
+        "name": "Project 3",
+        "description": "Random description about the fictional third project.",
+        "software": ["Figma", "Design Tokens"],
+        "image": "images/project3.jpg",
+        "link": "https://example.com"
+    },
+    {
+        "name": "Project 4",
+        "description": "Random description about the fictional fourth project.",
+        "software": ["JavaScript", "HTML", "CSS"],
+        "image": "images/project4.jpg",
+        "link": "https://example.com"
+    },
+    {
+        "name": "Project 5",
+        "description": "Random description about the fictional fifth project.",
+        "software": ["HTML", "Mockup Templates"],
+        "image": "images/project5.jpg",
+        "link": "https://example.com"
+    }
+]
