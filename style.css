@@ -337,7 +337,7 @@ body ul:not(nav ul) li::before {
   }
 
   #page-title {
-    margin-top: 0rem;
+    margin-top: 1rem;
   }
 
   #projectGrid {
