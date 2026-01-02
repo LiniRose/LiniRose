@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Mystical Woods Rough Script";
-  src: mystical-woods-rough-script.ttf;
+  src: url("mystical-woods-rough-script.ttf") format("truetype");
 }
 
 h1 {
@@ -383,12 +383,11 @@ body ul:not(nav ul) li::before {
 
   #contact-phone {
     justify-self: start;
-   margin-top: -2rem;
+    margin-top: -2rem;
   }
 
   #contact-linkedin {
     justify-self: start;
     margin-top: -2rem;
   }
-
 }
