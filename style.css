@@ -214,6 +214,7 @@ nav a.active {
 #contact-phone {
   grid-area: contact-phone;
   justify-self: center;
+  text-decoration: none;
 }
 #contact-linkedin {
   grid-area: contact-linkedin;
