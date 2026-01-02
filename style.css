@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Mystical Woods Rough Script";
-  src: url("fonts/MysticalWoodsRoughScript.ttf") format("truetype");
+  src: mystical-woods-rough-script.ttf;
 }
 
 h1 {
@@ -390,4 +390,5 @@ body ul:not(nav ul) li::before {
     justify-self: start;
     margin-top: -2rem;
   }
+
 }
