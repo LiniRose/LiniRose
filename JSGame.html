@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+  <title>JS Game</title>
+  <script src="fetch.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <div id="navContainer"></div>
+  <div id="container">
+    <main>
+      <h1 id="page-title">Java Script Game</h1>
+      <div></div>
+      <div class="game-wrapper">
+        <iframe src="game/index.html" title="JS Game" loading="lazy"></iframe>
+      </div>
+      <div class="aboutTheProject">
+        <p>
+          Kitty Crunch! is a small browser-based game developed as a group
+          project, where we collaborated on concept, logic, and implementation.
+          The goal of the game is to collect falling tacos while avoiding bombs,
+          with the difficulty increasing over time.
+        </p>
+        <p>
+          The game is built using HTML, CSS, and vanilla JavaScript, with
+          JavaScript handling all core gameplay logic. We used JavaScript to
+          control player movement through keyboard input, dynamically spawn game
+          objects, and manage collision detection between the player, tacos, and
+          bombs. Object positions are updated continuously using bounding box
+          calculations to create smooth movement and responsive interactions.
+        </p>
+        <p>
+          Game state such as score, high score, and difficulty progression is
+          managed through JavaScript variables and timers. The spawn rate
+          increases gradually to make the game more challenging, while the high
+          score is stored using localStorage so it persists between sessions.
+        </p>
+        <p>
+          Working as a group allowed us to divide responsibilities, test ideas
+          quickly, and refine both gameplay and user experience through
+          iteration. This project helped strengthen my understanding of
+          JavaScript fundamentals, DOM manipulation, event handling, and
+          collaborative development.
+        </p>
+      </div>
+    </main>
+  </div>
+  <footer id="contact">
+    <div class="contact-item">e-mail: 362820@via.dk</div>
+    <div class="contact-item">tlf: +45 50 43 60 75</div>
+  </footer>
+</body>
