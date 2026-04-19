@@ -1,0 +1,33 @@
+[
+  { "race": "human", "traits": "Resourceful, Skillful, Versatile" },
+  {
+    "race": "elf",
+    "traits": "Darkvision, Elven Lineage, Fey Ancestry, Keen Senses, Trance"
+  },
+  {
+    "race": "dwarf",
+    "traits": "Darkvision, Dwarven Resilience, Dwarven Toughness, Stonecunning"
+  },
+  {
+    "race": "halfling",
+    "traits": "Brave, Halfling Nimbleness, Luck, Naturally Stealthy"
+  },
+  {
+    "race": "aasimar",
+    "traits": "Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation"
+  },
+  {
+    "race": "dragonborn",
+    "traits": "Dragon Ancestry, Breath Weapon, Damage Resistance, Darkvision, Draconic Flight"
+  },
+  { "race": "gnome", "traits": "Darkvision, Gnomish Cunning, Gnomish Lineage" },
+  {
+    "race": "tiefling",
+    "traits": "Darkvision, Fiendish Legacy, Otherworldly Presence"
+  },
+  { "race": "goliath", "traits": "Giant Ancestry, Large Form, Powerful Build" },
+  {
+    "race": "orc",
+    "traits": "Adrenaline Rush, Darkvision, Relentless Endurance"
+  }
+]

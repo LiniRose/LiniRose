@@ -1,0 +1,82 @@
+[
+  {
+    "background": "acolyte",
+    "feature": "Magic Initiate",
+    "proficiencies": "Insight, Religion"
+  },
+  {
+    "background": "artisan",
+    "feature": "Crafter",
+    "proficiencies": "Investigation, Persuasion"
+  },
+  {
+    "background": "charlatan",
+    "feature": "Skilled",
+    "proficiencies": "Deception, Sleight of Hand"
+  },
+  {
+    "background": "criminal",
+    "feature": "Alert",
+    "proficiencies": "Stealth, Sleight of Hand"
+  },
+  {
+    "background": "entertainer",
+    "feature": "Musician",
+    "proficiencies": "Acrobatics, Performance"
+  },
+  {
+    "background": "farmer",
+    "feature": "Tough",
+    "proficiencies": "Animal Handling, Nature"
+  },
+  {
+    "background": "guard",
+    "feature": "Alert",
+    "proficiencies": "Athletics, Perception"
+  },
+  {
+    "background": "guide",
+    "feature": "Magic Initiate",
+    "proficiencies": "Stealth, Survival"
+  },
+  {
+    "background": "hermit",
+    "feature": "Healer",
+    "proficiencies": "Medicine, Religion"
+  },
+  {
+    "background": "merchant",
+    "feature": "Lucky",
+    "proficiencies": "Animal Handling, Persuasion"
+  },
+  {
+    "background": "noble",
+    "feature": "Skilled",
+    "proficiencies": "History, Persuasion"
+  },
+  {
+    "background": "sage",
+    "feature": "Magic Initiate",
+    "proficiencies": "Arcana, History"
+  },
+  {
+    "background": "sailor",
+    "feature": "Tavern Brawler",
+    "proficiencies": "Acrobatics, Persuasion"
+  },
+  {
+    "background": "scribe",
+    "feature": "Skilled",
+    "proficiencies": "Investigation, Perception"
+  },
+  {
+    "background": "soldier",
+    "feature": "Savage Attacker",
+    "proficiencies": "Athletics, Intimidation"
+  },
+  {
+    "background": "wayfarer",
+    "feature": "Lucky",
+    "proficiencies": "Insight, Stealth"
+  }
+]

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create Character</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="signup-form">
+      <h2>Dungeons & Dragons</h2>
+    </div>
+
+    <main>
+      <form action="/Signup" method="post" id="character-creation">
+        <h1>Create Your Character</h1>
+
+        <div class="form-group">
+          <label for="name">Character's Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="John the Brave"
+            minlength="2"
+            maxlength="50"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="class">Character's Class</label>
+          <select id="class" name="class" required>
+            <option value="">--</option>
+            <option value="barbarian">Barbarian</option>
+            <option value="bard">Bard</option>
+            <option value="cleric">Cleric</option>
+            <option value="druid">Druid</option>
+            <option value="fighter">Fighter</option>
+            <option value="monk">Monk</option>
+            <option value="paladin">Paladin</option>
+            <option value="ranger">Ranger</option>
+            <option value="rogue">Rogue</option>
+            <option value="sorcerer">Sorcerer</option>
+            <option value="warlock">Warlock</option>
+            <option value="wizard">Wizard</option>
+          </select>
+          <label for="primaryAbilities" class="info">Primary Abilities:</label>
+          <p id="primaryAbilities"></p>
+          <label for="hitPointDie" class="info">Hit Point Die:</label>
+          <p id="hitPointDie"></p>
+          <label for="saves" class="info">Saves:</label>
+          <p id="saves"></p>
+        </div>
+
+        <div class="form-group">
+          <label for="race">Character's Race</label>
+          <select id="race" name="race" required>
+            <option value="">--</option>
+            <option value="human">Human</option>
+            <option value="elf">Elf</option>
+            <option value="dwarf">Dwarf</option>
+            <option value="halfling">Halfling</option>
+            <option value="aasimar">Aasimar</option>
+            <option value="dragonborn">Dragonborn</option>
+            <option value="gnome">Gnome</option>
+            <option value="tiefling">Tiefling</option>
+            <option value="goliath">Goliath</option>
+            <option value="orc">Orc</option>
+          </select>
+          <label for="traits" class="info">Traits:</label>
+          <p id="traits"></p>
+        </div>
+
+        <div class="form-group">
+          <label for="background">Character's Background</label>
+          <select id="background" name="background" required>
+            <option value="">--</option>
+            <option value="acolyte">Acolyte</option>
+            <option value="artisan">Artisan</option>
+            <option value="charlatan">Charlatan</option>
+            <option value="criminal">Criminal</option>
+            <option value="entertainer">Entertainer</option>
+            <option value="farmer">Farmer</option>
+            <option value="guard">Guard</option>
+            <option value="guide">Guide</option>
+            <option value="hermit">Hermit</option>
+            <option value="merchant">Merchant</option>
+            <option value="noble">Noble</option>
+            <option value="sage">Sage</option>
+            <option value="sailor">Sailor</option>
+            <option value="scribe">Scribe</option>
+            <option value="soldier">Soldier</option>
+            <option value="wayfarer">Wayfarer</option>
+          </select>
+          <label for="feature" class="info">Feature:</label>
+          <p id="feature"></p>
+          <label for="proficiencies" class="info">Proficiencies:</label>
+          <p id="proficiencies"></p>
+        </div>
+
+        <div class="form-group">
+          <label>Character's Gender</label>
+          <fieldset>
+            <label
+              ><input type="radio" name="gender" value="female" required />
+              Female</label
+            >
+            <label
+              ><input type="radio" name="gender" value="male" /> Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="other" /> Other</label
+            >
+          </fieldset>
+          <input
+            type="text"
+            id="genderspecify"
+            name="genderspecify"
+            placeholder="Specify"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="Birthday">Character's Birth Date</label>
+          <input type="date" id="Birthday" name="birthday" required />
+        </div>
+
+        <div class="form-group">
+          <label for="height">Character's Height</label>
+          <input
+            type="range"
+            name="height"
+            id="height"
+            min="0"
+            max="600"
+            step="5"
+            value="160"
+          />
+          <output class="height" for="height"></output>
+        </div>
+
+        <div class="form-group">
+          <label for="more">More About Your Character</label>
+          <textarea
+            id="more"
+            name="more"
+            rows="5"
+            placeholder="Their parents died in a fire..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Upload Character Image</label>
+          <div id="uploadDiv" class="upload-div">↑</div>
+          <input
+            type="file"
+            id="fileInput"
+            accept="image/*"
+            style="display: none"
+          />
+          <img
+            id="preview"
+            alt="Preview"
+            style="display: none; margin-top: 10px; max-width: 200px"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@dnd.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="John1234"
+            required
+            minlength="2"
+            maxlength="50"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="******"
+            required
+            minlength="6"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="******"
+            required
+            minlength="6"
+          />
+        </div>
+
+        <button type="button" id="character-creation-btn">Join the Campaign!</button>
+      </form>
+    </main>
+  </body>
+</html>

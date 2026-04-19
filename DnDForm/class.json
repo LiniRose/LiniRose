@@ -1,0 +1,74 @@
+[
+  {
+    "class": "barbarian",
+    "primaryAbilities": "Strength",
+    "hitPointDie": "D12",
+    "saves": "Strength, Constitution"
+  },
+  {
+    "class": "bard",
+    "primaryAbilities": "Charisma",
+    "hitPointDie": "D8",
+    "saves": "Dexterity, Charisma"
+  },
+  {
+    "class": "cleric",
+    "primaryAbilities": "Wisdom",
+    "hitPointDie": "D8",
+    "saves": "Wisdom, Charisma"
+  },
+  {
+    "class": "druid",
+    "primaryAbilities": "Wisdom",
+    "hitPointDie": "D8",
+    "saves": "Wisdom, Intelligence"
+  },
+  {
+    "class": "fighter",
+    "primaryAbilities": "Strength, Dexterity",
+    "hitPointDie": "D10",
+    "saves": "Strength, Constitution"
+  },
+  {
+    "class": "monk",
+    "primaryAbilities": "Dexterity, Wisdom",
+    "hitPointDie": "D8",
+    "saves": "Strength, Dexterity"
+  },
+  {
+    "class": "paladin",
+    "primaryAbilities": "Strength, Charisma",
+    "hitPointDie": "D10",
+    "saves": "Wisdom, Charisma"
+  },
+  {
+    "class": "ranger",
+    "primaryAbilities": "Wisdom, Dexterity",
+    "hitPointDie": "D10",
+    "saves": "Strength, Dexterity"
+  },
+  {
+    "class": "rogue",
+    "primaryAbilities": "Dexterity",
+    "hitPointDie": "D8",
+    "saves": "Dexterity, Intelligence"
+  },
+  {
+    "class": "sorcerer",
+    "primaryAbilities": "Charisma",
+    "hitPointDie": "D6",
+    "saves": "Constitution, Charisma"
+  },
+  {
+    "class": "warlock",
+    "primaryAbilities": "Charisma",
+    "hitPointDie": "D8",
+    "saves": "Wisdom, Charisma"
+  },
+  {
+    "class": "wizard",
+    "primaryAbilities": "Intelligence",
+    "hitPointDie": "D6",
+    "saves": "Intelligence, Wisdom"
+  }
+]

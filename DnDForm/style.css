@@ -1,0 +1,157 @@
+:root {
+  --primary: #e94445;
+  --secondary: #264c5e;
+  --valid: #507f62;
+  --invalid: #e94445;
+  --border: #ccc;
+  --bg: #cec2ae;
+  --lightest: #fff7e9;
+  --text: #4a2932;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  padding-block-start: 0;
+}
+
+input,
+textarea,
+button,
+select {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem;
+  outline: none;
+}
+
+fieldset {
+  border: none;
+  outline: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  gap: 1rem;
+  display: flex;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 4rem;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-top: 0.3rem;
+}
+
+.info {
+  text-transform: none;
+  font-size: 0.75rem;
+}
+
+button {
+  background: var(--secondary);
+  color: var(--lightest);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--secondary);
+}
+
+form {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: var(--lightest);
+}
+
+#signup-form {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+  background-color: var(--primary);
+  padding: 1rem;
+  color: var(--lightest);
+}
+
+.form-group {
+  display: grid;
+}
+
+.upload-div {
+  width: 50px;
+  height: 50px;
+  border: 2px dashed #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  color: #555;
+  transition: background 0.2s;
+}
+
+#intro {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+
+#dragon {
+  position: fixed;
+  bottom: 2rem;
+  right: calc(50% - 400px);
+  max-height: 40%;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #dragon {
+    position: relative;   
+    bottom: auto;         
+    right: auto;
+    max-width: 80%;
+    max-height: 50%;
+    margin: 1rem auto 0 auto; 
+    display: block;
+  }
+}
+
+input:not(:placeholder-shown):invalid {
+  border-color: var(--invalid);
+}
+
+input:not(:placeholder-shown):valid {
+  border-color: var(--valid);
+}
+
+input:focus:invalid {
+  border-color: var(--primary);
+}
+
+input[type="date"]:invalid {
+  border-color: var(--border);
+}
+
+input[type="date"]:valid {
+  border-color: var(--valid);
+}
